@@ -274,7 +274,7 @@ button:focus {
 }
 
 .slider-info .slick-list {
-    padding: 0 0 0 32%;
+    padding: 0 32% 0 0;
 }
 
 .slider-info-item {
@@ -323,7 +323,7 @@ button:focus {
     line-height: 78px;
     letter-spacing: 0.02em;
     font-feature-settings: 'pnum'on, 'lnum'on;
-    color: #397DFF;
+    color: rgba(57, 125, 255, 0.3);
 }
 
 .slider-text {
@@ -332,5 +332,25 @@ button:focus {
     font-weight: normal;
     font-size: 14px;
     line-height: 160%;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.slick-active .numer-slide {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 78px;
+    letter-spacing: 0.02em;
+    font-feature-settings: 'pnum'on, 'lnum'on;
+    color: #397DFF;
+}
+
+.slick-active .slider-text {
+    width: 282px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 160%;
     color: rgba(255, 255, 255, 0.7);
 }
+
