@@ -9,6 +9,8 @@
         href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -105,8 +107,115 @@
     <!-- Шапка сайта -->
 
     <section class="hero">
-        
+        <div class="slider-img">
+            <div class="slider-img-item">
+                <img src="img/Slider/1.jpg" alt="slide 1">
+            </div>
+            <div class="slider-img-item">
+                <img src="img/Slider/1.jpg" alt="slide 2">
+            </div>
+            <div class="slider-img-item">
+                <img src="img/Slider/1.jpg" alt="slide 3">
+            </div>
+            <div class="slider-img-item">
+                <img src="img/Slider/1.jpg" alt="slide 4">
+            </div>
+        </div>
+        <!-- Слайдер с изображениями -->
+
+        <div class="hero-info">
+            <span class="info-small-title">
+                Оснащение конференц-залов
+            </span>
+
+            <h2 class="info-title">
+                Видео конференции
+            </h2>
+
+            <p class="info-text">
+                Профессиональное оборудование для конференц-залов предназначено для проведения и
+                организации презентаций, совещаний, бизнес-тренингов и онлайн-трансляции контента.
+            </p>
+
+            <div class="info-buttons">
+                <button class="info-button">
+                    Обратный звонок
+                </button>
+                <button class="info-button modal-button">
+                    Заполнить бриф
+                </button>
+            </div>
+        </div>
+        <!-- /.hero-info -->
+
+            <div class="slider">
+                <div class="slider-info">
+                    <div class="slider-info-item">
+                        <span class="numer-slide">
+                            01
+                        </span>
+                        <p class="slider-text">
+                            Простота использования оснащения позволяет решать функциональные и организационные задачи,
+                            оптимизировать работу, проводить мероприятия различного масштаба.
+                        </p>
+                    </div>
+                    <div class="slider-info-item">
+                        <span class="numer-slide">
+                            02
+                        </span>
+                        <p class="slider-text">
+                            Применение инновационных решений для демонстрации культурных и исторических реликвий –
+                            актуальная тенденция, которая успешно применяется в музеях и на площадках альтернативного
+                            искусства.
+                        </p>
+                    </div>
+                    <div class="slider-info-item">
+                        <span class="numer-slide">
+                            03
+                        </span>
+                        <p class="slider-text">
+                            Применение инновационных решений для демонстрации культурных и исторических реликвий –
+                            актуальная тенденция, которая успешно применяется в музеях и на площадках альтернативного
+                            искусства.
+                        </p>
+                    </div>
+                    <div class="slider-info-item">
+                        <span class="numer-slide">
+                            04
+                        </span>
+                        <p class="slider-text">
+                            Применение инновационных решений для демонстрации культурных и исторических реликвий –
+                            актуальная тенденция, которая успешно применяется в музеях и на площадках альтернативного
+                            искусства.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="slider-buttons">
+                    <button class="slider-button-prev">
+                        <svg width="10" height="18" viewBox="0 0 10 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M0.392491 8.64117L8.88372 0.149945C9.08364 -0.0499817 9.40428 -0.0499817 9.60421 0.149945C9.80413 0.349872 9.80413 0.670509 9.60421 0.870435L1.47511 8.99953L9.60421 17.1286C9.80413 17.3285 9.80413 17.6492 9.60421 17.8491C9.50613 17.9472 9.3741 18 9.24585 18C9.11759 18 8.98556 17.951 8.88749 17.8491L0.396262 9.35789C0.196336 9.16173 0.196337 8.83732 0.392491 8.64117Z"
+                                fill="white" />
+                        </svg>
+                    </button>
+
+                    <button class="slider-button-next">
+                        <svg width="10" height="18" viewBox="0 0 10 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M9.27759 8.66228L1.28585 0.670544C1.09768 0.482377 0.795905 0.482377 0.607738 0.670544C0.419572 0.85871 0.419572 1.16049 0.607738 1.34865L8.25865 8.99956L0.607738 16.6505C0.419572 16.8386 0.419572 17.1404 0.607738 17.3286C0.700046 17.4209 0.824307 17.4706 0.945018 17.4706C1.06573 17.4706 1.18999 17.4244 1.2823 17.3286L9.27404 9.33684C9.4622 9.15223 9.4622 8.8469 9.27759 8.66228Z"
+                                fill="white" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+
     </section>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js" defer></script>
+    <script type="text/javascript" src="script/slick.min.js" defer></script>
+    <script src="script/main.js" defer></script>
 </body>
 
 </html>
